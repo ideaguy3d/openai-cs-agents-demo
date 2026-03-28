@@ -48,6 +48,10 @@ from airline.agents import (
 )
 from memory_store import MemoryStore
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 class AgentEvent(BaseModel):
     id: str
