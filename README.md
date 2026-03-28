@@ -61,7 +61,7 @@ You can either run the backend independently if you want to use a separate UI, o
 From the `python-backend` folder, run:
 
 ```bash
-python -m uvicorn main:app --reload --port 8000
+FLASK_APP=main:app flask run --host 0.0.0.0 --port 8000 --debug
 ```
 
 The backend will be available at: [http://localhost:8000](http://localhost:8000)
