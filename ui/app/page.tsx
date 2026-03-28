@@ -117,6 +117,7 @@ export default function Home() {
       />
       <ChatKitPanel
         initialThreadId={initialThreadId}
+        events={events}
         onThreadChange={handleThreadChange}
         onResponseEnd={handleResponseEnd}
         onRunnerBindThread={handleBindThread}
