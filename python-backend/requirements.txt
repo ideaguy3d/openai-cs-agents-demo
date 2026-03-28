@@ -1,5 +1,4 @@
 openai-agents
 openai-chatkit
 pydantic
-fastapi
-uvicorn
+flask
